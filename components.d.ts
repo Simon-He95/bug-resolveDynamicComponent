@@ -8,7 +8,6 @@ export {}
 declare module '@vue/runtime-core' {
   export interface GlobalComponents {
     ElAutoResizer: typeof import('element-plus/es')['ElAutoResizer']
-    ElCheckbox: typeof import('element-plus/es')['ElCheckbox']
     ElTableV2: typeof import('element-plus/es')['ElTableV2']
     Index: typeof import('./src/components/Index/index.vue')['default']
     RouterLink: typeof import('vue-router')['RouterLink']
